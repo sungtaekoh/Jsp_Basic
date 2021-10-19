@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +16,8 @@
                 out.print("<i>결과</i> : "+num+"<b>입니다</b>");
         %>
         <%= "<i>결과11111</i> : "+num+"<b>입니다</b>" %>
+        
+        <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>    
         <h1>jstl</h1>
         <c:set var='n1' value="안녕하세요" />
         <c:out value="aaaaa"/>

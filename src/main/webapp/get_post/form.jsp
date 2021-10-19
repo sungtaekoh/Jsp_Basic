@@ -9,8 +9,10 @@
 <body>form.jsp<br>
 <!-- 
 뭘 써도 상관없다
-action="절대경로"
+action="절대경로"//절대를 자주 쓴다
+action="상대경로"
 action="주소"
+
  -->
  <h1>get방식</h1>
 	<form action="http://localhost:8081/sungtaek-jsp/get_post/getMethod.jsp" method="get">
